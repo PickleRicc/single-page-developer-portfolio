@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+
+    <title>Frontend Mentor | Single-page developer portfolio</title>
+  </head>
+  <body class="font-font-family bg-background">
+    <header class="py-6">
+      <!--Div container for NavBar-->
+      <div
+        class="container flex justify justify-between items-center mx-auto flex-col px-8 md:px-14 lg:px-24 sm:flex-row z-10"
+      >
+        <!-- Logo -->
+        <div class="heading_m text-text">adamkeyes</div>
+        <!-- Icons -->
+        <div class="flex space-x-3 items-center mt-4">
+          <button><img src="images/icon-github.svg" alt="" /></button>
+          <button><img src="images/icon-frontend-mentor.svg" alt="" /></button>
+          <button><img src="images/icon-linkedin.svg" alt="" /></button>
+          <button><img src="images/icon-twitter.svg" alt="" /></button>
+        </div>
+        <!-- Mobile Image  -->
+        <div class="pt-2 sm:hidden">
+          <img
+            src="images/image-profile-mobile.webp"
+            alt=""
+            class="h-96 w-52"
+          />
+        </div>
+        <!-- Desktop Image  -->
+        <div
+          class="hidden lg:flex desktop_img lg:absolute lg:right-28 lg:top-5"
+        >
+          <img src="images/image-profile-desktop.webp" alt="" class="-z-10" />
+        </div>
+      </div>
+    </header>
+    <!-- Main_Content_Container  -->
+    <main
+      class="flex justify-between items-center text-center mx-auto flex-col px-8 md:px-14 lg:px-24 sm:mt-32 sm:items-start sm:text-left"
+    >
+      <!-- Main_Text_Container  -->
+      <div
+        class="main_text container flex justify-between flex-col sm:width_main mx-auto"
+      >
+        <!-- Main Heading -->
+        <h1 class="text-4xl lg:text-8xl sm:text-6xl text-text">
+          Nice to <br />
+          meet you! Im <br />
+          <span class="underline decoration-primary space-y-5"
+            >Adam Keyes
+          </span>
+        </h1>
+        <div class="flex justify-center sm:justify-start">
+          <div class="sm:main_p sm:w-1/2 pt-10 md:flex-none">
+            <p class="text-text-secondary md:text-3xl">
+              Based in the UK, I'm a front-end developer passionate about
+              building accessible web apps that users love
+            </p>
+          </div>
+        </div>
+        <!-- Main Link -->
+        <div class="pt-5">
+          <a
+            href="#"
+            class="border-b pb-3 border-primary decoration-primary hover:text-primary text-text text-2xl"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+    </main>
+    <!-- End of Main_Content_Container  -->
+
+    <!-- Page break -->
+    <div class="w-3/4 container mx-auto sm:w-full mt-20 sm:mt-48">
+      <hr />
+    </div>
+
+    <!-- Skills Container LG -->
+    <div
+      class="lg:py-10 hidden md:hidden lg:container lg:mx-auto lg:grid lg:grid-cols-8 lg:gap-20 lg:gap-x-44 px-8 md:px-14 lg:px-24"
+    >
+      <div class="col-start-1 col-span-2">
+        <div class="container">
+          <h2 class="text-3xl md:text-5xl text-text">HTML</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+      <div class="col-start-3 col-span-2">
+        <div class="container">
+          <h2 class="text-3xl md:text-5xl text-text">CSS</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+      <div class="col-span-2">
+        <div class="container">
+          <h2 class="sm:text-2xl md:text-5xl text-text">JavaScript</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="hidden md:hidden lg:container lg:mx-auto lg:grid lg:grid-cols-8 lg:gap-20 lg:gap-x-44 px-8 md:px-14 lg:px-24"
+    >
+      <div class="col-start-1 col-span-2">
+        <div class="container">
+          <h2 class="text-3xl md:text-5xl text-text">Accessibility</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+      <div class="col-start-3 col-span-2">
+        <div class="container">
+          <h2 class="text-3xl md:text-5xl text-text">React</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+      <div class="col-span-2">
+        <div class="container">
+          <h2 class="text-3xl md:text-6xl text-text">Sass</h2>
+          <p class="text-text-secondary pt-3">4 years of Experience</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills container Small/Medium -->
+    <div class="flex justify-center pt-10">
+      <div
+        class="place-content-center text-center grid grid-cols-1 space-y-5 lg:hidden md:grid md:grid-cols-2 md:gap-20 md:container md:mx-auto sm:text-left"
+      >
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-5xl text-text">HTML</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-5xl text-text">CSS</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-5xl text-text">JavaScript</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-5xl text-text">Accessibility</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-5xl text-text">React</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="container">
+            <h2 class="text-4xl md:text-6xl text-text">Sass</h2>
+            <p class="text-text-secondary pt-3">4 years of Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page break Small Screens-->
+    <div class="w-3/4 container mx-auto sm:w-full mt-8 mb-32 sm:hidden">
+      <hr />
+    </div>
+
+    <!-- Projects -->
+    <div
+      class="flex flex-col text-center sm:justify-between sm:flex-row mx-auto mt-32 container px-8 md:px-14 lg:px-24"
+    >
+      <h1 class="heading_l text-text">Projects</h1>
+      <div class="pt-5">
+        <a
+          href="#"
+          class="border-b pb-3 border-primary decoration-primary hover:text-primary text-text text-2xl"
+          >Contact Me</a
+        >
+      </div>
+    </div>
+    <div class="">
+      <div
+        class="grid grid-cols-custom_grid gap-4 pt-10 container mx-auto px-8 md:px-14 lg:px-24 relative"
+      >
+        <div class="container">
+          <div class="relative w-full">
+            <img
+              src="images/thumbnail-project-1-small.webp"
+              alt=""
+              class="block"
+            />
+
+            <div class="absolute top-1/2 right-1/2">
+              <div class="flex flex-col justify-center items-center">
+                <div
+                  class="text-text text-2xl opacity-0 hover:text-primary hover:opacity-100"
+                >
+                  View Product
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-text text-2xl pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+        <div>
+          <div class="hover:opacity-50">
+            <img src="images/thumbnail-project-2-small.webp" alt="p_img" />
+          </div>
+          <h1 class="text-text pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+        <div>
+          <div class="hover:opacity-50">
+            <img src="images/thumbnail-project-3-small.webp" alt="p_img" />
+          </div>
+          <h1 class="text-text text-2xl pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+        <div>
+          <div class="hover:opacity-50">
+            <img src="images/thumbnail-project-4-small.webp" alt="p_img" />
+          </div>
+          <h1 class="text-text text-2xl pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+        <div>
+          <div class="hover:opacity-50">
+            <img src="images/thumbnail-project-5-small.webp" alt="p_img" />
+          </div>
+          <h1 class="text-text text-2xl pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+        <div>
+          <div class="hover:opacity-50">
+            <img src="images/thumbnail-project-6-small.webp" alt="p_img" />
+          </div>
+          <h1 class="text-text text-2xl pt-5">Design Portfolio</h1>
+          <p class="text-text-secondary pt-5">HTML CSS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="bg-black">
+      <div
+        class="container flex flex-col mt-10 sm:flex-row sm:mt-72 sm:pt-20 mx-auto my-auto bg-black"
+      >
+        <div class="container sm:basis-1/3">
+          <h1
+            class="sm:text-7xl text-text text-center sm:text-left pt-3 pb-3 sm:py-8 px-8"
+          >
+            Contact
+          </h1>
+          <p
+            class="text-text-secondary mx-auto text-center sm:text-2xl sm:text-left px-8 mb-8"
+          >
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <div class="container basis-1/2 sm:basis-3/4 mt-10">
+          <hr class="container w-1/2 mx-auto mb-10 bg-white sm:hidden" />
+          <form>
+            <div
+              class="flex flex-col text-center sm:text-left justify-between sm:ml-48 px-8"
+            >
+              <div>
+                <label for="Name" class="text-text-secondary text-xl"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  placeholder="John Doe"
+                  class="flex my-3 w-full border-b-text-secondary border-b outline-0 pb-1 bg-transparent text-lg"
+                />
+              </div>
+              <div>
+                <label for="email" id="email" class="text-text-secondary"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  placeholder="johndoe@xyz.com"
+                  class="flex my-3 w-full border-b-text-secondary border-b outline-0 pb-1 bg-transparent text-lg"
+                />
+              </div>
+              <div>
+                <label for="Message" class="text-text-secondary">Message</label>
+                <input
+                  type="text"
+                  placeholder="I can't wait to build the perfect website for my business!"
+                  class="flex my-3 w-full border-b-text-secondary border-b outline-0 pb-1 bg-transparent text-lg"
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="bg-primary text-white text-2xl py-3 px-10 rounded-full mt-6"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Tablet Image  -->
+    <div
+      class="main_img hidden sm:w-auto sm:flex sm:absolute right-10 sm:top-5 lg:hidden -z-10 mx-auto"
+    >
+      <img src="images/image-profile-tablet.webp" alt="" class="tablet_img" />
+    </div>
+    <!-- Rings_Image -->
+    <div
+      class="absolute top-52 -left-64 lg:top-28 lg:-left-28 md:top-28 md:-left-72 sm:top-28 sm:-left-72"
+    >
+      <img src="images/pattern-rings.svg" alt="" />
+    </div>
+
+    <!-- <div class="relative -right-60 sm:hidden md:hidden lg:hidden">
+      <img src="images/pattern-rings.svg" alt="">
+    </div> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

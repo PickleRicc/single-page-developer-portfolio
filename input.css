@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body * {
+  border: 2px solid rgb(255, 255, 255);
+} */
+
+
+.heading {
+  @apply text-8xl font-bold;
+}
+
+.heading_l {
+  @apply text-6xl font-bold;
+}
+
+.heading_m {
+  @apply text-xl font-medium;
+}
+
+.main_text {
+  @apply text-lg font-medium;
+}
+
+.desktop_img {
+  @apply w-1/3;
+  height: 45rem;
+  width: 27.813rem
+}
+
+.tablet_img {
+  height: 40rem;
+  width: 20.813rem ;
+}
+
+.main_container {
+  height: 44.125;
+  width: 25.438;
+}
+
+.width_main {
+  width: 58%;
+}
+
+.circle_image {
+  position: absolute;
+  right: 30rem;
+  bottom: 40rem;
+}
+
+.circle_image_md {
+  margin-left: 40rem;
+}
+
+.skills h1 {
+  @apply text-7xl font-bold text-text;
+}
+
+.skills p {
+  @apply text-xl font-medium text-text-secondary
+}
+
+.p_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project_img:hover {
+   opacity: 0.5;
+}
+
